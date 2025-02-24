@@ -1,3 +1,4 @@
+const n = 125;
 let number = n;
 
 const conversion = (n) => {
@@ -20,6 +21,5 @@ for (let char of base2) {
   } else {
     currentCount = 0;
   }
- 
 }
-console.log(maxCount)
+console.log(maxCount);
